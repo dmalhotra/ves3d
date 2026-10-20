@@ -1,0 +1,48 @@
+Ves3D: 3D particulate flow simulation code
+
+Copyright (C) 2010-2017 The Ves3D authors
+
+Authors:
+  Abtin Rahimian (lead author)
+  Dhairya Malhotra (PVFMM interface, singular and near-singular integration,
+    Stokes double-layer kernels, adaptive time-stepping, reparametrization,
+    repulsion, periodic flows)
+  George Biros (time-stepper monitor, BLAS interface)
+Each source file names its own authors in its header.
+
+Licensed under the GNU Lesser General Public License, version 3 (see COPYING).
+The files whose headers carry Abtin Rahimian's MIT License notice are under
+the MIT License.
+
+Ports and translations of this code to other programming languages, whether
+made by hand or with automated tools, are derived from this work. The authors
+of this code remain authors of every part derived from it, and the License
+requires distributions of such works to be under the same License, with an
+appropriate copyright notice and the notices that the License applies, such
+as those in the file headers, kept intact (Sections 4 and 5 of the GNU GPL
+version 3, which the LGPL incorporates). The MIT License requires its
+copyright and permission notice to be included in all copies or substantial
+portions of the files under it.
+
+Third-party code:
+  include/anyoption.h, src/anyoption.cc: AnyOption 1.3 by Kishan Thomas
+  (www.hackorama.com), with fixes by Michael D Peters and Boyan Asenov,
+  reformatted for Ves3D. The copy carries no license notice; the upstream
+  repository, https://github.com/hackorama/AnyOption, is now under the MIT
+  License, Copyright (c) 2016 Kishan Thomas.
+  src/legendre_rule.cc: LEGENDRE_RULE by John Burkardt, with routines from
+  IQPACK by Sylvan Elhay and Jaroslav Kautsky and from EISPACK, distributed
+  under the GNU LGPL (version not stated), modified for Ves3D (see the file
+  header); include/legendre_rule.h declares its functions.
+  src/transpose_kernel.cu, include/transpose_kernel.h and the copies in
+  etc/CudaFiles/ and etc/Rotation/: the transpose kernels of the transpose
+  sample in the NVIDIA CUDA SDK, Copyright 1993-2007 NVIDIA Corporation, under
+  the NVIDIA notice in the file headers, with changes for Ves3D.
+  matlab/grule.m: the Gauss-Legendre rule is from gauss.m in L. N. Trefethen,
+  Spectral Methods in MATLAB (SIAM, 2000), p. 129, whose license is not
+  stated.
+  src/PVFMMInterface.cc, src/StokesVelocity.cc, src/InterfacialVelocity.cc:
+  the vectorized Stokes kernels are adapted from include/kernel.txx, and the
+  VTK output from MPI_Tree::Write2File in include/mpi_tree.txx, of PVFMM
+  (https://github.com/dmalhotra/pvfmm, LGPL-3.0), written there by Dhairya
+  Malhotra (see the file headers).

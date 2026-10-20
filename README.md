@@ -62,3 +62,7 @@ the VES3D_PLATFORM variable to make.
 1. Code-specific compiler options are: VERBOSE, PROFILING, VES3D_TESTING, VES3D_USE_GPU, VES3D_USE_PVFMM
 1. If you want the GPU code compiled set "VES3D_USE_GPU=yes" in makefile.<hostname>
 1. Fully functional revisions of code are tagged by vYY.ID (YY is year and ID is an integer)
+
+## License
+
+Ves3D is licensed under the [GNU Lesser General Public License, version 3](COPYING); the files whose headers carry Abtin Rahimian's MIT License notice are under the MIT License. The [NOTICE](NOTICE) file lists the authors and the third-party code in Ves3D, and each source file names its authors in its header.
