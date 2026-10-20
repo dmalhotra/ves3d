@@ -7,6 +7,12 @@ function [qp qw] = grule(n)
 % This code is courtesy of L.N. Trefethen, Spectral method in Matlab, page 129.
 %
 % SEE ALSO: PARDOMAIN  
+
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE), except the code from gauss.m
+% Authors: Abtin Rahimian, Lloyd N. Trefethen
+% The Gauss-Legendre rule is from gauss.m in L. N. Trefethen, Spectral Methods in
+% MATLAB (SIAM, 2000), p. 129, whose license is not stated; the wrapper and test are
+% from Abtin Rahimian's MATLAB toolkit Ves3DMat (2010), added to Ves3D in 2017.
   
   if(nargin==0), testGrule();return;end
   

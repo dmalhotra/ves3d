@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #define BLOCK_DIM 16
 
 extern __global__ void transpose(float *out, float *in, int width, int height);

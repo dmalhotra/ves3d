@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 void DotProductGpu(const float *a, const float *b, int stride, int num_surfs, float *aDb);
 void CrossProductGpu(const float *a, const float *b, int stride, int num_surfs, float *aCb);
 void xvpwGpu(const float *x, const float *a, const float *y, int stride, int num_surfs, float *AxPy);

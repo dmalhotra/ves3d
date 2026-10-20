@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 #ifndef _PARAMETERS_H_
 #define _PARAMETERS_H_
 

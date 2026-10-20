@@ -1,3 +1,9 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Dhairya Malhotra
+//
+// The vectorized Stokes kernels are adapted from include/kernel.txx of
+// PVFMM (https://github.com/dmalhotra/pvfmm, LGPL-3.0), by the same author.
+
 #include <cstring>
 #include <parUtils.h>
 #include <vector.hpp>

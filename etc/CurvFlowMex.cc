@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #include "mex.h"
 
 void CurvFlow(float* x,int vec_len,float ts,int m,float *x_final);

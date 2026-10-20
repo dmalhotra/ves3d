@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 #include "CudaKernels.h"
 #include <assert.h>
 #include <stdio.h>

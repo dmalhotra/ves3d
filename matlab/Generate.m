@@ -1,3 +1,6 @@
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+
 precision = {'single','double'}
 for p = [6,8,12,16,24,32,48,64,96,128]
   for ii=1:length(precision)

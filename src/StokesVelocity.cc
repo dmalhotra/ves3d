@@ -1,3 +1,9 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Dhairya Malhotra
+//
+// WriteVTK is adapted from MPI_Tree::Write2File in include/mpi_tree.txx of
+// PVFMM (https://github.com/dmalhotra/pvfmm, LGPL-3.0), by the same author.
+
 #include <omp.h>
 #include <iostream>
 #include <profile.hpp>

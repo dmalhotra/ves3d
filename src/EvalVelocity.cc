@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 template<typename Scalar, typename Vector, typename StokesEvaluator>
 EvalVelocity<Scalar, Vector, StokesEvaluator>::EvalVelocity(
     const StokesEvaluator &stokes, const BgFlowBase<Vector> &vInf,

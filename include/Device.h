@@ -1,3 +1,5 @@
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 /**
  * @file   Device.h
  * @author Abtin Rahimian <arahimian@acm.org>

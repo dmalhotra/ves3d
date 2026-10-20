@@ -1,3 +1,10 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Dhairya Malhotra, Abtin Rahimian
+//
+// SingularWeights is ported from matlab/SingularWeights.m, and MatRotate, RotateAll
+// and RotateTranspose implement the pole rotation of matlab/GenerateShRotMats.m and
+// MovePole, both by Abtin Rahimian.
+
 #include <legendre_rule.hpp>
 
 template <class Real>

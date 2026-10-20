@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Dhairya Malhotra
+
 #ifndef _PVFMM_INTERFACE_H_
 #define _PVFMM_INTERFACE_H_
 

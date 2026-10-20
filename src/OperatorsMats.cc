@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 template <typename Container>
 OperatorsMats<Container>::OperatorsMats(bool readFromFile,
     const Parameters<value_type> &params) :

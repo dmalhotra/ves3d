@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #include <cuda.h>
 
 void ResampleGpu(int p, int n_funs, int q, float *shc_p, float *shc_q) {

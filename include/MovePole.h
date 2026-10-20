@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #ifndef _MOVEPOLE_H_
 #define _MOVEPOLE_H_
 

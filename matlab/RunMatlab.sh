@@ -1,3 +1,6 @@
+# Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+# Author: Abtin Rahimian
+
 #PBS -l nodes=1
 #PBS -l walltime=600:00:00
 #PBS -N GenerateMats

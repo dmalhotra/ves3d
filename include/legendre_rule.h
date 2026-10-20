@@ -1,3 +1,6 @@
+// Declarations of the functions in legendre_rule.cc, which is LEGENDRE_RULE by
+// John Burkardt under the GNU LGPL; written for Ves3D by Abtin Rahimian.
+
 # include <cstring>
 
 #ifndef _LEGENDRE_RULE_H_

@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 #ifndef _OPERATORSMATS_H_
 #define _OPERATORSMATS_H_
 

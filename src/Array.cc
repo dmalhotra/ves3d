@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 template<typename T, typename DT, const DT &DEVICE>
 Array<T, DT, DEVICE>::Array(size_t size) :
     size_(size),

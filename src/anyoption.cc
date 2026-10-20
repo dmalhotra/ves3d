@@ -1,3 +1,7 @@
+// AnyOption 1.3 by Kishan Thomas (www.hackorama.com), reformatted for Ves3D. This copy
+// carries no license notice; the upstream repository, https://github.com/hackorama/AnyOption,
+// is now under the MIT License, Copyright (c) 2016 Kishan Thomas.
+
 /*
  * AnyOption 1.3
  *

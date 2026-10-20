@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Dhairya Malhotra, Abtin Rahimian
+
 template<typename T, typename DT, const DT &DEVICE,
          typename Interact, typename Repart>
 EvolveSurface<T, DT, DEVICE, Interact, Repart>::EvolveSurface(Params_t *params,

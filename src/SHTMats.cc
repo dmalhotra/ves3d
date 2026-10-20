@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 template<typename T, typename Device>
 SHTMats<T, Device>::SHTMats(const Device &dev, int sh_order, T *data,
     bool generateMats, std::pair<int, int> grid_dim) :

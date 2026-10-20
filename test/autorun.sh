@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+# Author: Abtin Rahimian
+
 #
 # check the designated file and run it when it changes.
 

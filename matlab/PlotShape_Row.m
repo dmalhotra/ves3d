@@ -1,3 +1,6 @@
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+
 function PlotShape(X,p,C)
 
   if(nargin<3), C = []; end

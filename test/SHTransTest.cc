@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 ///This test only performs the filtering. Use matlab/SHTransTest.m to
 ///see the result in Matlab
 
