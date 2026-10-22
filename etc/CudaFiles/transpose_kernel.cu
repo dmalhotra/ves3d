@@ -1,3 +1,6 @@
+// From transpose_kernel.cu in the transpose sample of the NVIDIA CUDA SDK, under the
+// NVIDIA notice below.
+
 /*
  * Copyright 1993-2007 NVIDIA Corporation.  All rights reserved.
  *

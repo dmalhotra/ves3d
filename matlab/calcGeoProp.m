@@ -7,6 +7,10 @@ function [gp gpAll]= calcGeoProp(S)
 % for surface Gradient and surface divergence.
 %
 
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+% From Abtin Rahimian's MATLAB toolkit Ves3DMat (2010), added to Ves3D in 2017.
+
   % NOTES: Bellow, gpAll holds the geoProps in the upsampled frequency. The
   % fundamental forms are not continuous and cannot be interpolated via
   % spherical harmonics, it is more accurate to calculate them in the original

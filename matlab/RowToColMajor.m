@@ -1,3 +1,6 @@
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+
 function xr = RowToColMajor(xv,p)
 
   for ii=1:size(xv,2)

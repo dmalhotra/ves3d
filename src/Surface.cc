@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 /**
  * @file   Surface.cc
  * @author Rahimian, Abtin <arahimian@acm.org>

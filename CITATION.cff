@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+message: "If you use Ves3D, please cite it as below."
+type: software
+title: "Ves3D"
+authors:
+  - given-names: Abtin
+    family-names: Rahimian
+  - given-names: Dhairya
+    family-names: Malhotra
+  - given-names: George
+    family-names: Biros
+abstract: "Simulates deformable vesicles in Stokes flows, resolves inter-cell collisions and scales to thousands of cores."
+repository-code: "https://github.com/mmorse1217/ves3d"
+license: LGPL-3.0-only
+preferred-citation:
+  type: article
+  title: "A parallel algorithm for long-timescale simulation of concentrated vesicle suspensions in three dimensions"
+  authors:
+    - given-names: Dhairya
+      family-names: Malhotra
+    - given-names: Abtin
+      family-names: Rahimian
+    - given-names: Denis
+      family-names: Zorin
+    - given-names: George
+      family-names: Biros
+  year: 2017
+  status: preprint
+  url: "https://cims.nyu.edu/~malhotra/files/pubs/ves3d.pdf"
+references:
+  - type: article
+    title: "Parallel contact-aware simulations of deformable particles in 3D Stokes flow"
+    authors:
+      - given-names: Libin
+        family-names: Lu
+      - given-names: Abtin
+        family-names: Rahimian
+      - given-names: Denis
+        family-names: Zorin
+    year: 2018
+    status: preprint
+    url: "https://arxiv.org/pdf/1812.04719"
+  - type: conference-paper
+    title: "Scalable simulation of realistic volume fraction red blood cell flows through vascular networks"
+    authors:
+      - given-names: Libin
+        family-names: Lu
+      - given-names: Matthew J.
+        family-names: Morse
+      - given-names: Abtin
+        family-names: Rahimian
+      - given-names: Georg
+        family-names: Stadler
+      - given-names: Denis
+        family-names: Zorin
+    collection-title: "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+    publisher:
+      name: ACM
+    start: 1
+    end: 30
+    year: 2019
+    doi: "10.1145/3295500.3356203"
+  - type: software
+    title: "PVFMM: Parallel Volume Fast Multipole Method"
+    authors:
+      - given-names: Dhairya
+        family-names: Malhotra
+      - given-names: George
+        family-names: Biros
+      - given-names: Chenhan D.
+        family-names: Yu
+      - given-names: Brian
+        family-names: Ward
+      - given-names: Xuanzhao
+        family-names: Gao
+      - given-names: Robert
+        family-names: Blackwell
+      - given-names: Wen
+        family-names: Yan
+    repository-code: "https://github.com/dmalhotra/pvfmm"
+    doi: "10.5281/zenodo.23511939"
+    license: LGPL-3.0-only
+    notes: "Ves3D uses PVFMM, when built with VES3D_USE_PVFMM, for its fast multipole evaluations (src/PVFMMInterface.cc)."

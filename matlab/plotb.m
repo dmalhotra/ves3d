@@ -6,6 +6,10 @@ function hOut = plotb(Xin, C, varargin)
 %
 % SEE ALSO: BOUNDARY, PARDOMAIN
 
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+% From Abtin Rahimian's MATLAB toolkit Ves3DMat (2010), added to Ves3D in 2017.
+
   if ( isa(Xin,'d3Vec') )
     Xin = vecForm(Xin);
   end

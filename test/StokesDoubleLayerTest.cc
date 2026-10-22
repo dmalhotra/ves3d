@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Dhairya Malhotra, Abtin Rahimian
+
 #include <iostream>
 #include "DataIO.h"
 #include "Scalars.h"

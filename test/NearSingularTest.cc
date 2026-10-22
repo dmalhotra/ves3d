@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Dhairya Malhotra
+
 #include <StokesVelocity.h>
 
 int main(int argc, char** argv){

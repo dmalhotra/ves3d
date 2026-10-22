@@ -1,3 +1,9 @@
+// LEGENDRE_RULE by John Burkardt, with routines from IQPACK by Sylvan Elhay and
+// Jaroslav Kautsky and from EISPACK, distributed under the GNU LGPL (the notes
+// below do not state a version). Modified for Ves3D by Abtin Rahimian: the main
+// program and the gamma function check in CLASS_MATRIX are commented out, and
+// the declarations are in include/legendre_rule.h.
+
 # include <cstdlib>
 # include <cmath>
 # include <iostream>

@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Dhairya Malhotra, Abtin Rahimian
+
 #ifndef _SPHERICAL_HARMONICS_H_
 #define _SPHERICAL_HARMONICS_H_
 

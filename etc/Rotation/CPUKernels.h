@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #ifndef _CPUKERNELS_H_
 #define _CPUKERNELS_H_
 

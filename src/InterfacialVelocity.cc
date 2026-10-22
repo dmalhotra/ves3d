@@ -1,3 +1,10 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+//
+// The VTK output of the velocity field is adapted from MPI_Tree::Write2File
+// in include/mpi_tree.txx of PVFMM (https://github.com/dmalhotra/pvfmm, LGPL-3.0),
+// by Dhairya Malhotra.
+
 template<typename SurfContainer, typename Interaction>
 InterfacialVelocity<SurfContainer, Interaction>::
 InterfacialVelocity(SurfContainer &S_in, const Interaction &Inter,

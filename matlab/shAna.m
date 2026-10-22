@@ -6,6 +6,10 @@ function shc = shAna(f)
 % SEE ALSO: PARDOMAIN, GRULE, YNM
 %
 
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+% From Abtin Rahimian's MATLAB toolkit Ves3DMat (2010), added to Ves3D in 2017.
+
   persistent LT LT_Freqs
 
   mem = whos('LT');

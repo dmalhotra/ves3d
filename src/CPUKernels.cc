@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, Dhairya Malhotra
+
 #include "CPUKernels.h"
 
 #define I_PI 1.0/M_PI/8.0

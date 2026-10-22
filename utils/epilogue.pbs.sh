@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+# Author: Abtin Rahimian
+
 #
 # script that can be passed to pbs as epilogue.user. The cleanup
 # after a job can be done here. Based on pbs documentation the

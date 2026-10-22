@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #include <cuda.h>
 
 void CircShiftGpu(const float *arr_in, int n_vecs, int vec_length, int shift, float *arr_out) {

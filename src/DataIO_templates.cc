@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 template<typename T>
 bool DataIO::ReadData(const std::string &file_name, size_t size,
     T* data, IOFormat frmt) const

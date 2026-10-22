@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Abtin Rahimian, George Biros
+
 #ifndef _TIMESTEPPER_H_
 #define _TIMESTEPPER_H_
 

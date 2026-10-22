@@ -6,6 +6,10 @@ function flagOut  = printMsg(format, varargin)
 %    
 %     printMsg([],'verbose','screen') or printMsg([],'verbose','file','fileName')
 
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+% From Abtin Rahimian's MATLAB toolkit Ves3DMat (2010), added to Ves3D in 2017.
+
 %     set the verbose option. To set the verbose option the format string
 %     should be empty, otherwise printMsg prints out the input arguments
 %     according to the given format. The verbose option is either 'quiet',

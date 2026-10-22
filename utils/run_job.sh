@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+# Author: Abtin Rahimian
+
 #
 # use the python script run_job.py for more flexibility
 # and control this is for legacy machines.

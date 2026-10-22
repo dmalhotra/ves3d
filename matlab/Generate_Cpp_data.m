@@ -1,3 +1,6 @@
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+
 function Generate_Cpp_data(p, precision, varargin)
 
   for ii = 1:length(varargin)

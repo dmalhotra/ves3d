@@ -10,6 +10,10 @@ function [Yn Hn Wn] = Ynm(n, m, u, v)
 % SEE ALSO: parDomain.
 %
 
+% Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+% Author: Abtin Rahimian
+% From Abtin Rahimian's MATLAB toolkit Ves3DMat (2010), added to Ves3D in 2017.
+
   if(nargin==0), testYnm(); return; end
   np = length(u);
   if(isempty(m)), m =-n:n;end

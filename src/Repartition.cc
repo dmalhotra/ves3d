@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 template<typename T>
 Repartition<T>::Repartition(GlobalRepart_t fun_ptr,
     Dealloc_t clear_context,

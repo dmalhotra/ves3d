@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #define IDEAL_ALIGNMENT 16
 #define SIMD_LEN (IDEAL_ALIGNMENT / sizeof(float))
 

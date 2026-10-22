@@ -1,3 +1,7 @@
+// From transpose_kernel.cu in the transpose sample of the NVIDIA CUDA SDK, under the
+// NVIDIA notice below. Modified for Ves3D by Abtin Rahimian: const input, a double
+// precision kernel and the cu_trans wrappers.
+
 /*
  * Copyright 1993-2007 NVIDIA Corporation.  All rights reserved.
  *

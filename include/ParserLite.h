@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Author: Abtin Rahimian
+
 #ifndef _PARSERLITE_H_
 #define _PARSERLITE_H_
 

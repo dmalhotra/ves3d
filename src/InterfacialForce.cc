@@ -1,3 +1,6 @@
+// Copyright (C) 2010-2017 The Ves3D authors (see NOTICE)
+// Authors: Dhairya Malhotra, Abtin Rahimian
+
 template<typename SurfContainer>
 InterfacialForce<SurfContainer>::InterfacialForce(
     const Parameters<value_type> &params,

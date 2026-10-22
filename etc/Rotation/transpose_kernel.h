@@ -1,3 +1,7 @@
+// Declarations of the cu_trans wrappers in transpose_kernel.cu, by Abtin Rahimian. The
+// NVIDIA notice below comes from the transpose sample of the NVIDIA CUDA SDK, which
+// transpose_kernel.cu derives from.
+
 /*
  * Copyright 1993-2007 NVIDIA Corporation.  All rights reserved.
  *
